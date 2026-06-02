@@ -134,7 +134,7 @@ const SignIn = () => {
                 name="remember"
                 checked={formData.remember}
                 onChange={handleChange}
-                className="w-4 h-4 text-gold-default"
+                className="w-3 h-3 text-gold-default"
               />
               <span className="text-sm text-gray-600">Remember for 30 days</span>
             </label>
@@ -142,7 +142,7 @@ const SignIn = () => {
             <Button 
               type="submit" 
               disabled={isLoading}
-              className="w-full bg-gold-default hover:bg-gold-light text-black font-semibold py-3.5 text-base tracking-wider"
+              className="w-full bg-gold-default hover:bg-gold-light text-black font-bold py-3 text-base tracking-wider"
             >
               {isLoading ? "SIGNING IN..." : "SIGN IN →"}
             </Button>
