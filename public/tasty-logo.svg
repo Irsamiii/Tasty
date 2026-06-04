@@ -5,12 +5,14 @@
  width="600.000000pt" height="600.000000pt" viewBox="0 0 600.000000 600.000000"
  preserveAspectRatio="xMidYMid meet">
  <defs>
- <lineargradient id="goldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
- <stop offset="16%" stop-color="#E6C76A"/>
- <stop offset="22%" stop-color="#E6C76A"/>
- <stop offset="50%" stop-color="#C9A227"/>
- <stop offset="88%" stop-color="#635013"/>
- </lineargradient>
+ <linearGradient id="goldGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#E6C76A"/>
+    <stop offset="16%" stop-color="#E6C76A"/>
+    <stop offset="22%" stop-color="#E6C76A"/>
+    <stop offset="50%" stop-color="#C9A227"/>
+    <stop offset="88%" stop-color="#635013"/>
+    <stop offset="100%" stop-color="#635013"/>
+</linearGradient>
  </defs>
 <g transform="translate(0.000000,600.000000) scale(0.100000,-0.100000)"
 fill="url(#goldGradient)" stroke="none">

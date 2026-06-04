@@ -4,6 +4,7 @@ import { AuthProvider } from './contexts/AuthContext';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Dashboard from './pages/Dashboard';
+import BusinessRegistration from './pages/BusinessRegistration';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/business-registration" element={<BusinessRegistration />} />
         </Routes>
       </Router>
     </AuthProvider>
